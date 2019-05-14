@@ -1,0 +1,22 @@
+{
+  "name": "lambdafunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bson": "^2.0.2",
+    "moment": "^2.21.0",
+    "mongodb": "^3.0.3",
+    "mongodb-core": "^3.0.3",
+    "node-async-loop": "^1.2.2",
+    "node-gyp": "^3.6.2",
+    "pluralize": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./handler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cloud strife",
+  "license": "ISC"
+}
